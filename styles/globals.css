@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap");
+@import "embla.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.loading {
+  
+  position: absolute;
+  
+  background-color: rgba(0, 0, 0, 0);
+  
+  
+}
+
+
+.bg-pattern {
+  background-color: blue;
+  background-attachment: relative;
+  background-size: cover;
+  opacity: 1;
+}
+.bg-new{
+  background-color: #b63232;
+
+}
+
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f4f4f4;
+  background: blue;
+}
+
+::selection {
+  color: #f4f4f4;
+  background: blue;
+}
+
+
+.gradient-background {
+  background: linear-gradient(213deg, blue, #ff4e58, blue, #33c2d0);
+  background-size: 240% 240%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+.underlined {
+  position: relative;
+}
+
+.underlined::after {
+  content: "";
+  position: absolute;
+  bottom: -1.525rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  height: 40px;
+  z-index: 0;
+
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg");
+  background-repeat: no-repeat;
+}
+
+.gene {
+  width: 426px;
+  height: 148px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow: hidden;
+  text-shadow: 5px 7px 4px rgba(0, 23, 138, 0.25);
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Black Ops One", serif;
+  color: #f1efef;
+  font-size: 144px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  position: relative;
+  text-align: center;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.posab {
+  position: absolute;
+  left: 16px;
+  top: 90vh;
+  color: white;
+  font-weight: 500;
+}
+
+.posab span {
+  font-weight: 600;
+}
+
+.posab2 {
+  position: absolute;
+  right: 16px;
+  top: 90vh;
+}
+
+header {
+  overflow-x: visible !important;
+}
+
+.posab2 li {
+  padding: 8px 8px;
+}
+
+.posab2 li:hover {
+  background-color: blue;
+  transition: 0.5s;
+}
+
+.posab2 li {
+  transition: 0.5s;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.posab3 {
+  padding: 16px 16px;
+  border-radius: 18px;
+  border: 1px white solid;
+  position: absolute;
+  height: fit-content;
+  width: 50vw;
+  background-color: rgba(40, 0, 185, 0.25);
+  left: calc(25vw);
+  top: auto;
+}
+.posab4 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 1;
+}
+.posab5 {
+  
+  width: 20%;
+  margin-left: 40vw;
+  margin-top: calc(50vh - 100px);
+  
+  display: block;
+}
+
+
+.posab3 h2 {
+  font-size: 2vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+.posab3 p {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.posab3 .mintButton {
+  font-family: 'A4 SPEED';
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 8px 8px;
+  margin-top: 8px;
+  background-color: white;
+  color: blue;
+  width: 6vw;
+  margin-left: calc(50% - 3vw);
+}
+
+.col1 .d-flex * {
+  margin: auto;
+}
+
+.col1 .d-flex button {
+  padding: 4px 4px;
+  border: 1px white solid;
+  border-radius: 4px;
+
+}
+
+.mtps {
+  margin-top: 8px;
+}
+
+.posab3 .exit {
+  width: fit-content;
+  margin-left: auto;
+  border: 1px solid white;
+  padding: 2px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2vw;
+}
+
+.buttonrb {
+  background-color: white;
+  padding: 8px 8px;
+  border-radius: 1;
+  transition: 0.5s;
+  color: black;
+  border: none;
+  
+}
+
+.buttonrb:hover {
+  background-color: rgb(1, 1, 104);
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+
+.buttonsadd {
+  width: 128px;
+  margin: auto;
+}
+
+.buttonsadd button {
+  background-color: white;
+  border-radius: 0px !important;
+  color: blue;
+  font-size: 2vw;
+  padding: 0 !important;
+  width: 40px;
+  height: 40px;
+  line-height: 16px;
+}
+
+.buttonsadd p {
+  font-size: 1.5vw;
+  font-family: 'A4 SPEED';
+}
+
+.sccs {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 8px;
+  padding: 16px 16px;
+}
+
+.headernavv a span {
+  font-size: 1vw;
+  padding: 8px;
+}
+
+.headernavv {
+  height: 100%;
+  padding-top: 2vh;
+}
+
+.posab3 .d-flex h2 {
+  margin-left: auto;
+}
+
+.headernavv a {
+  float: right;
+  margin: 0 1vw;
+}
+
+@media only screen and (max-width: 720px) {
+  .about, .avatars, .presale, .publicsale {
+    padding: 0 !important;
+
+  }
+
+  .ptext h1 {
+    font-size: 32px;
+  }
+
+  .ptext h2 {
+    font-size: 18px !important;
+  }
+
+  .about div, .avatars div, .presale div, .publicsale div {
+    font-size: 16px !important;
+  }
+
+  .avatars h2, .publicsale h2, .presale h2 {
+    font-size: 40px !important;
+  }
+
+  .about, .avatars .presale, .publicsale {
+    height: 200vh !important;
+  }
+
+  .publicsale {
+    height: 100vh !important;
+  }
+
+  .roadmap {
+    height: fit-content !important;
+  }
+
+  .roadmap h1 {
+    font-size: 40px !important;
+  }
+
+  .roadmap h4 {
+    font-size: 21.33px !important;
+  }
+
+  .roadmap h5 {
+    font-size: 16px !important;
+  }
+
+  .roadmap .step {
+    margin-top: 8px;
+    padding: 0 !important;
+  }
+
+  .headernavv a span {
+    font-size: 12px !important;
+    height: fit-content;
+  }
+
+  .headernavv a {
+    padding: 8px 8px;
+  }
+
+  .headernavv {
+    display: flex;
+  }
+
+  .headernavv #logonav {
+    width: 70% !important;
+  }
+
+  .posab3 {
+    width: 60vw;
+    height: fit-content;
+    margin-top: 5vh;
+    margin-left: -4.5vw;
+    
+
+  }
+  .posab3 h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .posab3 h2 {
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .posab3 p {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  
+  .posab3 .mintButton {
+    font-family: 'A4 SPEED';
+    font-size: 5vw;
+    font-weight: 600;
+    padding: 8px 8px;
+    margin-top: 8px;
+    background-color: white;
+    color: blue;
+    width: 30vw;
+    margin-left: calc(50% - 15vw);
+  }
+
+  .posab3 .exit {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 6vw;
+  }
+  .buttonsadd p {
+    font-size: 5vw;
+    font-family: 'A4 SPEED';
+  }
+
+  .buttonsadd button {
+    font-size: 5vw;
+    
+  }
+
+  
+
+  #walletButton {
+    
+    margin-right: 5%;
+    margin-top: 0;
+    overflow-x: hidden;
+    height: 40px;
+  }
+  
+
+
+  .headernavv a span {
+    font-size: 24px;
+    padding: 8px;
+
+  }
+
+  .headernavv a {
+    height: fit-content;
+  }
+
+  #walletButton, #mintingButton {
+    margin-left: auto;
+    float: right;
+  }
+
+  .posab5 {
+  
+    width: 50%;
+    margin-left: 27vw;
+    margin-top: calc(50vh - 80px);
+    
+    display: block;
+  }
+}
+
+.headernavv a:nth-child(1) {
+  float: left !important;
+  height: fit-content;
+}
+
+#theteam {
+  font-size: 4vw;
+}
+
+.headernavv #logonav {
+  width: 10vw;
+  height: auto;
+}
+
+.lcUbOd:hover{
+  background-color: blue;
+  box-shadow: 0 0 1px 3px rgb(0, 17, 255) !important;
+}
+.lcUbOd{
+  background-color: black !important;
+
+  box-shadow: 0 0 1px 3px rgb(0, 17, 255) !important;
+}
+.jRFJkP{
+  background-color: blue !important;
+}

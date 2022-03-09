@@ -1,0 +1,19 @@
+@font-face {font-family: "Absolute Zero"; src: url("//db.onlinewebfonts.com/t/0c3ce1fdc15ed9a20d97f9a86444e4ab.eot"); src: url("//db.onlinewebfonts.com/t/0c3ce1fdc15ed9a20d97f9a86444e4ab.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0c3ce1fdc15ed9a20d97f9a86444e4ab.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0c3ce1fdc15ed9a20d97f9a86444e4ab.woff") format("woff"), url("//db.onlinewebfonts.com/t/0c3ce1fdc15ed9a20d97f9a86444e4ab.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0c3ce1fdc15ed9a20d97f9a86444e4ab.svg#Absolute Zero") format("svg"); }
+
+.logo{
+    position: relative;
+    z-index: 4;
+    height: 100vh;
+}
+#logo{
+    margin-top: calc(50vh - 120px);
+    font-family: "Absolute Zero";
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    height: 96px;
+   
+    
+    
+    
+}

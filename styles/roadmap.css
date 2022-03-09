@@ -1,0 +1,48 @@
+.roadmap{
+    position: relative;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    
+}
+.roadmap h1{
+    color: #ffffff;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Avengeance Heroic Avenger', sans-serif;
+
+}
+.roadmap h1 span{
+    color: blue;
+    font-size: 1vw;
+}
+.steps{
+    padding: 0 10%;
+    width: 100vw;
+}
+.step{
+    padding: 16px 0;
+    color: white;
+}
+.step h4{
+    font-family: "A4 SPEED";
+
+    font-size: 1.50vw;
+}
+.step h4 span{
+    color: blue;
+}
+.step h5{
+    font-size: 1vw;
+}
+
+.spaceq {
+    color: black;
+}
+.step:nth-child(1), .step:nth-child(3),.step:nth-child(5),.step:nth-child(7) {
+    text-align: left;
+    padding-left: 50%;
+}
+.step:nth-child(2), .step:nth-child(4),.step:nth-child(6),.step:nth-child(8) {
+    text-align: right;
+    padding-right: 50%;
+}
