@@ -25,7 +25,7 @@ export default function Model({ ...props }) {
     }
     return "desktop";
   };
-  const vidFunc = (pathToVideo) => {
+  function useFunc(pathToVideo) {
     const [video] = useState(() => {
       
       const vid = document.createElement("video");
@@ -13542,7 +13542,7 @@ export default function Model({ ...props }) {
         scale={[0.24, 0.18, 1]}
         >
         <meshBasicMaterial>
-        <videoTexture attach="map" args={vidFunc('/lftdwn.mp4')} />
+        <videoTexture attach="map" args={useFunc('/lftdwn.mp4')} />
       </meshBasicMaterial>        
       </mesh>
       <mesh
@@ -13553,7 +13553,7 @@ export default function Model({ ...props }) {
         scale={[0.24, 0.18, 1]}
         >
         <meshBasicMaterial>
-        <videoTexture attach="map" args={vidFunc('/rgtdwn.mp4')} />
+        <videoTexture attach="map" args={useFunc('/rgtdwn.mp4')} />
       </meshBasicMaterial>        
       </mesh>
       <mesh
@@ -13564,7 +13564,7 @@ export default function Model({ ...props }) {
         scale={[0.19, 0.19, 1]}
         >
         <meshBasicMaterial>
-            <videoTexture attach="map" args={vidFunc('/rgtup.mp4')} />
+            <videoTexture attach="map" args={useFunc('/rgtup.mp4')} />
           </meshBasicMaterial>           
       
         </mesh>
@@ -13576,7 +13576,7 @@ export default function Model({ ...props }) {
         scale={[0.19, 0.19, 1]}
         >
           <meshBasicMaterial>
-            <videoTexture attach="map" args={vidFunc('/lftup.mp4')} />
+            <videoTexture attach="map" args={useFunc('/lftup.mp4')} />
           </meshBasicMaterial>
         </mesh>
       <group position={[-2.115879, 5.144, 0.31]}>
