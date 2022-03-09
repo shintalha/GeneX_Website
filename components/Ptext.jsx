@@ -1,8 +1,8 @@
-import React from 'react'
-import ReactTypingEffect from 'react-typing-effect';
+import React from "react"
+import ReactTypingEffect from "react-typing-effect";
 export const Ptext = () => {
   return (
-    <div className='ptext'>
+    <div className="ptext">
       <div className="projectinfo">
         <div className="about">
 

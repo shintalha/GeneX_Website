@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "../components/Header";
 
 import {Gallery} from "../components/Gallery";
@@ -7,7 +7,7 @@ import FAQ from "../components/FAQ";
 import { Logo } from "../components/Logo";
 import { Ptext } from "../components/Ptext";
 import { Roadmap } from "../components/Roadmap";
-import {useProgress } from '@react-three/drei'
+import {useProgress } from "@react-three/drei"
 
 export const Preload = () => {
   const { progress, loaded} = useProgress();

@@ -1,7 +1,7 @@
 import {Canvas, extend, useFrame, useThree} from "@react-three/fiber";
 import React, {Suspense, useRef} from "react";
 import Model from "./Compressedf"
-import { Effects, Environment, useProgress } from '@react-three/drei'
+import { Effects, Environment} from "@react-three/drei"
 import {GlitchPass} from "three/examples/jsm/postprocessing/GlitchPass"
 
 

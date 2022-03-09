@@ -1,5 +1,5 @@
-import {ReactChild, useEffect} from 'react'
-import ReactTypingEffect from 'react-typing-effect';
+
+import ReactTypingEffect from "react-typing-effect";
 
 
 

@@ -25,7 +25,7 @@ export default function Model({ ...props }) {
     }
     return "desktop";
   };
-  function vidFunc(pathToVideo) {
+  const vidFunc = (pathToVideo) => {
     const video = useState(() => {
       
       const vid = document.createElement("video");
