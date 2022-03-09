@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-
+import Head from "next/head";
 import {Gallery} from "../components/Gallery";
 import {Sticky} from "../components/Sticky";
 import FAQ from "../components/FAQ";
@@ -39,7 +39,13 @@ export const Preload = () => {
 
   return (
     <>
+     <Head>
+        <title>THE GENEX PROJECT</title>
+        <meta name="description" content="Nft Minting Tutorial" />
+        <link rel="icon" href="/iconnew.ico" />
+      </Head>
       {!done ? (
+        
         <div className="posab4">
           <img src="/loading.gif" alt="loading.." className="relative posab5"/>
           

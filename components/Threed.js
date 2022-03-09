@@ -21,7 +21,7 @@ const CCamera = () => {
     function scalePercent(start, end) {
       return (scrollPercent - start) / (end - start)
     }
-    let scrollPercent = 0
+    let scrollPercent = 0;
 
 document.body.onscroll = function () {
 //calculate the current scroll progress as a percentage
@@ -41,8 +41,8 @@ animationScripts.push({
       
     camera.position.y = lerp(6.90, 7.50, scalePercent(0, 6))
     camera.position.z=-0.10
-    camera.position.x=-4.10
-    camera.lookAt(-4.10,5,-0.25);
+    camera.position.x=-4.11
+    camera.lookAt(-4.11,5,-0.25);
     
   },
 })
@@ -53,9 +53,9 @@ animationScripts.push({
   end: 23.99,
   func: () => {
    
-    camera.position.x = lerp(-4.10, -3.9, scalePercent(6, 24))
+    camera.position.x = lerp(-4.11, -3.9, scalePercent(6, 24))
     camera.position.y = lerp(7.50, 8, scalePercent(6, 24))
-    camera.lookAt(-4.10,5,-0.25);
+    camera.lookAt(-4.11,5,-0.25);
     
     
   },
@@ -69,7 +69,7 @@ animationScripts.push({
     camera.position.x = lerp(-3.9, 0.45, scalePercent(24, 60))
     camera.position.z = lerp(-0.14, 1.81, scalePercent(24, 60))
     camera.position.y = lerp(8, 10.91, scalePercent(24, 60))
-    camera.lookAt(-4.10,5,-0.25);
+    camera.lookAt(-4.11,5,-0.25);
     
     
   },
@@ -83,7 +83,7 @@ animationScripts.push({
     camera.position.x = 0.45
     camera.position.z = 1.81
     camera.position.y = 10.91
-    camera.lookAt(-4.10,5,-0.25);
+    camera.lookAt(-4.11,5,-0.25);
 
     
     

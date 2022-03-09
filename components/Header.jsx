@@ -105,7 +105,7 @@ const Header = () => {
       <Head>
         <title>THE GENEX PROJECT</title>
         <meta name="description" content="Nft Minting Tutorial" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/iconnew.ico" />
       </Head>
 
       <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white 
@@ -120,14 +120,7 @@ const Header = () => {
               <img src="/image2.png" alt="logo" id="logonav"/>
 
             </a>
-            {
-                walletAddress.length > 0 ? (
-                  <a  onClick={mintingButtonPressed} className="mintingButton buttonrb cursor-pointer px-4 py-2 font-extrabold text-black-300 border rounded-md" id="mintingButton">
-
-                    <span>Minting</span>
-                  </a>
-                ) : (null)
-              }
+            
                 <a
                   onClick={connectWalletPressed} className="buttonrb cursor-pointer px-4 py-2 font-extrabold text-black-300 border  rounded-md"
                   id="walletButton"
@@ -142,6 +135,14 @@ const Header = () => {
                     <span>Connect Wallet</span>
                   )}
                 </a>
+                {
+                walletAddress.length > 0 ? (
+                  <a  onClick={mintingButtonPressed} className="mintingButton buttonrb cursor-pointer px-4 py-2 font-extrabold text-black-300 border rounded-md" id="mintingButton">
+
+                    <span>Minting</span>
+                  </a>
+                ) : (null)
+              }
               
           </nav>
 
@@ -186,7 +187,7 @@ const Header = () => {
             <p>Your Wallet Adress : {String(walletAddress).substring(0, 6) +
                     "..." +
                     String(walletAddress).substring(38)}<br />
-              The Number Of GeneX you can mint : <br />
+              The Number Of GeneX you can mint : 5 <br />
               You area about to now You area about to now You area about to nowYou area about to nowYou area about to nowYou area about to now
             </p>
             <br />
@@ -209,16 +210,16 @@ const Header = () => {
           </div>
            ) : (<div className="posab3 backdrop-filter backdrop-blur-lg">
           <div className="d-flex">
-            <h2>THE GENEX PROJECT</h2>
+            <h2>THE GENEⓧ PROJECT </h2>
             <div onClick={closeMinting} className="exit">✕</div>
   
           </div>
           <p>Your Wallet Adress : {String(walletAddress).substring(0, 6) +
                   "..." +
                   String(walletAddress).substring(38)}<br />
-            The Number Of GeneX you can mint : <br />
-            Minting Date: To be announced.<br />
-            Please follow Announcements from official GeneX Twitter and Discord servers to get know minting date. 
+            
+            Minting Date: To be announced 🗓.<br />
+            Please follow announcements 📣 from official GeneX Twitter and Discord servers to get know minting date 👨🏻‍💻. 
           </p>
           
          

@@ -283,7 +283,7 @@ html {
 
 .posab2 {
   position: absolute;
-  right: 16px;
+  right: 7vw;
   top: 90vh;
 }
 
@@ -389,7 +389,7 @@ header {
 
 .buttonrb {
   background-color: white;
-  padding: 8px 8px;
+  padding: 12px 12px;
   border-radius: 1;
   transition: 0.5s;
   color: black;
@@ -579,9 +579,14 @@ header {
   #walletButton {
     
     margin-right: 5%;
-    margin-top: 0;
-    overflow-x: hidden;
+    margin-top: 0.7%;
+    overflow-x: auto;
     height: 40px;
+    margin-left: auto;
+    float: right;
+  }
+  #mintingButton {
+    margin-top: 0.7%;
   }
   
 
@@ -596,10 +601,7 @@ header {
     height: fit-content;
   }
 
-  #walletButton, #mintingButton {
-    margin-left: auto;
-    float: right;
-  }
+  
 
   .posab5 {
   
