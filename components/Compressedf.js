@@ -26,7 +26,7 @@ export default function Model({ ...props }) {
     return "desktop";
   };
   const vidFunc = (pathToVideo) => {
-    const video = useState(() => {
+    const [video] = useState(() => {
       
       const vid = document.createElement("video");
       vid.src = pathToVideo;
@@ -38,7 +38,7 @@ export default function Model({ ...props }) {
       
       return vid;
     });
-    return video;
+    return [video];
   }
 
   var texture = new THREE.TextureLoader().load("/image14.jpg");
