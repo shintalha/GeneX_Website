@@ -29,23 +29,23 @@ export const Ptext = () => {
         </div>
         <div className="presale">
 
-          <h1>PRE-SALE</h1>
+          <h1>THE SUPPLY</h1>
           
-          <h2>3500</h2>
+          <h2>10000</h2>
           <ReactTypingEffect
             cursorRenderer={cursor => <h3>{cursor}</h3>}
-            text={["CLONE X Corp was founded by three extraterrestrials who came from the planet of Orbitar in the Draco constellation. These interplanetary tourists have come to accelerate our evolution towards an immaterial existence. They plan to transfer all human consciousness into advanced clone forms to create the ultimate Metaverse. \m \n In this advanced civilization, humans no longer reside in an organic form but are instead represented by their digital CloneX avatars. This ground breaking technology has revolutionized Homo sapiens's ability to self-express themselves through customizable avatar identities. This development also allows Clones to travel across galaxies and expand our civilization into new galaxies and simulations."]}
+            text={["Our collection consists of 10,000 3D GeneX characters. 3500 of the GeneXs, each of which are different and rare, will find their owners in the pre-sale, where only those who have a Whitelist can purchase. The remaining 6500 GeneX will find their owners in the Public Sale. The Mint price will be 0.066 ETH for the whitelist, while it will be 0.077 ETH for the Public Sale."]}
             speed="25"
             eraseDelay={1000000}
           />
         </div>
         <div className="publicsale">
 
-          <h1>Public Sale</h1>
-          <h2>6500</h2>
+          <h1>THE VISION</h1>
+          <h2>METAVERSE</h2>
           <ReactTypingEffect
             cursorRenderer={cursor => <h3>{cursor}</h3>}
-            text={["CLONE X Corp was founded by three extraterrestrials who came from the planet of Orbitar in the Draco constellation. These interplanetary tourists have come to accelerate our evolution towards an immaterial existence. They plan to transfer all human consciousness into advanced clone forms to create the ultimate Metaverse. \m \n In this advanced civilization, humans no longer reside in an organic form but are instead represented by their digital CloneX avatars. This ground breaking technology has revolutionized Homo sapiens's ability to self-express themselves through customizable avatar identities. This development also allows Clones to travel across galaxies and expand our civilization into new galaxies and simulations."]}
+            text={["We are as excited as you are for Metaverse, where the NFT world has been experiencing great hype lately. After all GeneXs find their owners, we want to take our place in a metaverse that we decided together with our committee. (Sandbox, Decentraland etc.) We want to build a space where we can spend time and organize activities freely with our family members from all over the world. We look forward to exploring the world of Metaverse with you."]}
             speed="25"
             eraseDelay={1000000}
           />

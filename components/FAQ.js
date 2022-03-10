@@ -90,7 +90,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                  How do I buy an NFT?
+                WHAT IS  THE GENEX PROJECT?
                 </h2>
               </div>
               <button
@@ -143,12 +143,7 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                    {` You need a wallet! Download the metamask.io extension for
-                    the Chrome/Brave browser or app on mobile. Once joined, you
-                    will be able to kiss your frog after minting the NFT. FYI,
-                    there will be a fee associated with every transaction
-                    related to gas prices. Once you have made your purchase, the
-                    Frogz in your wallet will be viewable on OpenSea.`}
+                    {`All people's bodies are different, but from the outside, all people look alike. The most important thing that makes people different from each other is their different characters. At this point, our bodies are insufficient to reflect the differences of our souls. The GeneX Project is the study of reflecting the differences in characters to bodies. And these bodies are blended with the objects in our imaginations with futuristic works, as well as the items we use all the time. The gene that shows these in our bodies is "GeneX". We wanted you to find a GeneX that reminds you of yourself from 10 thousand different GeneXs that are the result of this blending. In short, with all its differences, it means a large family where we can both win and learn.`}
                   </p>
                 </li>
               </ul>
@@ -158,7 +153,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                  How many FACES can I buy at once?
+                HOW CAN I BUY GENEX?
                 </h2>
               </div>
               <button
@@ -211,8 +206,11 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                    You can buy as many as you want with the limit of 5 per
-                    transaction.
+                  Minting will take place on this site on the date to be announced. 
+                  If you have a whitelist, you can mint GeneX in the pre-sale, if not, 
+                  you can mint GeneX in the Public Sale. If you miss the Mint, 
+                  you can buy GeneX from OpenSea. We continue to work so that 
+                  you can have a high quality and trouble-free minting experience.
                   </p>
                 </li>
               </ul>
@@ -222,7 +220,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                  Who is behind Emoji Faces?
+                WHO IS BEYOND GENEX PROJECT?
                 </h2>
               </div>
               <button
@@ -273,7 +271,8 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                    codingwithdidem :) 🎉🎉🎉
+                  You can view our team members from the "Team" section at the bottom. 
+                  We have an energetic and highly innovative team. We look forward to meeting with you.
                   </p>
                 </li>
               </ul>

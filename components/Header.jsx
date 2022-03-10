@@ -237,7 +237,7 @@ const Header = () => {
 
               <li>
                 <a
-                  href="https://twitter.com/DidemKkkaraasl1"
+                  href="https://twitter.com/shintalha"
                   target="_blank"
                   rel="noreferrer"
                 >

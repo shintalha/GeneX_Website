@@ -23,7 +23,7 @@ The Whitelist will be distributed through the draws we will make on our Discord 
           </div>
           <div className="step">
             <h4>Step <span>3</span></h4>
-            <h5>The launch of our project will consist of two rounds. On the dates to be announced, first day Whitelist holders will receive the first 2000 GeneXs.
+            <h5>The launch of our project will consist of two rounds. On the dates to be announced, first day Whitelist holders will receive the first 3500 GeneXs.
 The next day, it will be public sale and all people will be able to own GeneX by minting on our site.
 </h5>
 
