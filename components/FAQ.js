@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Head from "next/head";
 export default function MyApp() {
   const [faq1, setFaq1] = useState(false);
   const [faq2, setFaq2] = useState(false);

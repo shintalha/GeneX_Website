@@ -6,7 +6,7 @@ export const Ptext = () => {
       <div className="projectinfo">
         <div className="about">
 
-          <h1>ABOUT-THE-PROJECT</h1>
+          <h1>ABOUT THE PROJECT</h1>
           <h2>The GeneX Project is a unique and rare 3D NFT collection of 10,000 NFTs created by randomly generating over 200 traits. The collection is based on the Ethereum blockchain and includes 10k unique GeneX.</h2>
           <ReactTypingEffect
             cursorRenderer={cursor => <h3>{cursor}</h3>}

@@ -4,11 +4,6 @@ import Model from "./Compressedf"
 import { Effects, Environment} from "@react-three/drei"
 import {GlitchPass} from "three/examples/jsm/postprocessing/GlitchPass"
 
-
-
-
-
-
 extend({GlitchPass});
 
 const CCamera = () => {
