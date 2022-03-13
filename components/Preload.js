@@ -39,9 +39,9 @@ export const Preload = () => {
 
   return (
     <>
-     <Head>
-        <title>THE GENEX PROJECT</title>
-        <meta name="description" content="Nft Minting Tutorial" />
+      <Head>
+        <title>GeneX Project NFT</title>
+        <meta name="description" content="GeneX Project NFT is a 3D NFT collection created by randomly generating over 200 rare traits. The collection is based on the Ethereum blockchain and includes 4444 unique GeneX." />
         <link rel="icon" href="/iconnew.ico" />
       </Head>
       {!done ? (
