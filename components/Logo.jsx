@@ -9,7 +9,7 @@ export const Logo = () => {
       <div id="logo">
       <ReactTypingEffect
             cursorRenderer={cursor => <h1>{cursor}</h1>}
-            text={["THE \n GENEX \n PROJECT"]}
+            text={["GENEX  PROJECT"]}
             
             
             typingDelay={500}

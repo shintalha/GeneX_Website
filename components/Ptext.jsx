@@ -29,12 +29,12 @@ export const Ptext = () => {
         </div>
         <div className="presale">
 
-          <h1>THE SUPPLY</h1>
+          <h1>THE LIMITED SUPPLY</h1>
           
-          <h2>10000</h2>
+          <h2>4444</h2>
           <ReactTypingEffect
             cursorRenderer={cursor => <h3>{cursor}</h3>}
-            text={["Our collection consists of 10,000 3D GeneX characters. 3500 of the GeneXs, each of which are different and rare, will find their owners in the pre-sale, where only those who have a Whitelist can purchase. The remaining 6500 GeneX will find their owners in the Public Sale. The Mint price will be 0.066 ETH for the whitelist, while it will be 0.077 ETH for the Public Sale."]}
+            text={["Our collection consists of 4444 3D GeneX characters. 1700 of the GeneXs, each of which are different and rare, will find their owners in the pre-sale, where only those who have a Whitelist can purchase. The remaining 2744 GeneX will find their owners in the Public Sale. The Mint price will be 0.055 ETH for the whitelist, while it will be 0.088 ETH for the Public Sale."]}
             speed="25"
             eraseDelay={1000000}
           />
