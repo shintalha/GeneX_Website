@@ -4,6 +4,7 @@ export default function MyApp() {
   const [faq2, setFaq2] = useState(false);
   const [faq3, setFaq3] = useState(false);
   const [faq4, setFaq4] = useState(false);
+  const [faq5, setFaq5] = useState(false);
 
   return (
     <div id="faq" className="relative" >
@@ -142,7 +143,7 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                    {`All people's bodies are different, but from the outside, all people look alike. The most important thing that makes people different from each other is their different characters. At this point, our bodies are insufficient to reflect the differences of our souls. The GeneX Project is the study of reflecting the differences in characters to bodies. And these bodies are blended with the objects in our imaginations with futuristic works, as well as the items we use all the time. The gene that shows these in our bodies is "GeneX". We wanted you to find a GeneX that reminds you of yourself from 10 thousand different GeneXs that are the result of this blending. In short, with all its differences, it means a large family where we can both win and learn.`}
+                    {`All people's bodies are different, but from the outside, all people look alike. The most important thing that makes people different from each other is their different characters. At this point, our bodies are insufficient to reflect the differences of our souls. The GeneX Project is the study of reflecting the differences in characters to bodies. And these bodies are blended with the objects in our imaginations with futuristic works, as well as the items we use all the time. The gene that shows these in our bodies is "GeneX". We wanted you to find a GeneX that reminds you of yourself from 4444 different GeneXs that are the result of this blending. In short, with all its differences, it means a large family where we can both win and learn.`}
                   </p>
                 </li>
               </ul>
@@ -219,7 +220,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                WHO IS BEYOND GENEX PROJECT?
+                WHEN IS THE SALE?
                 </h2>
               </div>
               <button
@@ -270,8 +271,69 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                  You can view our team members from the "Team" section at the bottom. 
-                  We have an energetic and highly innovative team. We look forward to meeting with you.
+                  When our sales dates are certain, they will be announced on our website, social media accounts and Discord server.
+                  </p>
+                </li>
+              </ul>
+            )}
+          </div>
+
+          <div className="bg-white shadow rounded p-4 mt-8" onClick={() => setFaq5(!faq5)}>
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
+                WHAT IS THE MINT PRICE AND THE NUMBER OF MINTS PER WALLET?
+                </h2>
+              </div>
+              <button
+                onClick={() => setFaq5(!faq5)}
+                data-menu
+                className="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer"
+              >
+                {faq4 ? (
+                  <svg
+                    role="button"
+                    aria-label="close dropdown"
+                    width="10"
+                    height="6"
+                    viewBox="0 0 10 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 5L5 1L9 5"
+                      stroke="#4B5563"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    width="10"
+                    role="button"
+                    aria-label="open dropdown"
+                    height="6"
+                    viewBox="0 0 10 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L9 1"
+                      stroke="#4B5563"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+            {faq5 && (
+              <ul>
+                <li>
+                  <p className="text-base leading-normal text-gray-600 mt-4 ">
+                  Mint price is 0.088ETH for a GeneX. While the number of mints that can be made per wallet is 20, the number of mints per transaction is 10. For example, if you want to mint 20 GeneXs, you would need to do two transaction as 10 Mints + 10 Mints.
                   </p>
                 </li>
               </ul>
