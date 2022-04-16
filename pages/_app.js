@@ -4,6 +4,7 @@ import '../styles/logo.css';
 import '../styles/ptext.css';
 import '../styles/roadmap.css';
 import '../styles/gallery.css';
+import '../styles/AR.css';
 
 import { StatusProvider } from "../context/statusContext";
 

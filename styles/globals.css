@@ -283,8 +283,8 @@ html {
 
 .posab2 {
   position: absolute;
-  right: 7vw;
-  top: 90vh;
+  right: 3vw;
+  top: 87vh;
 }
 
 header {
@@ -292,9 +292,12 @@ header {
 }
 
 .posab2 li {
-  padding: 8px 8px;
+  padding: 1.5vw 1.5vw;
 }
-
+.sociallogo{
+  width: 2vw;
+  height: 2vw;
+}
 .posab2 li:hover {
   background-color: blue;
   transition: 0.5s;
@@ -439,6 +442,7 @@ header {
 
 .headernavv {
   height: 100%;
+  width: 100vw;
   padding-top: 2vh;
 }
 
@@ -448,8 +452,14 @@ header {
 
 .headernavv a {
   float: right;
-  margin: 0 1vw;
+  margin: 0 4vw;
 }
+
+.headernavv #logonav {
+  width: 10vw;
+  
+}
+
 
 @media only screen and (max-width: 720px) {
   .about, .avatars, .presale, .publicsale {
@@ -516,7 +526,8 @@ header {
   }
 
   .headernavv #logonav {
-    width: 70% !important;
+    
+    left: 1vw;
   }
 
   .posab3 {
@@ -573,8 +584,17 @@ header {
     font-size: 5vw;
     
   }
+  .posab2{
+    top: 92vh;
+  }
 
-  
+  .posab2 li {
+    padding: 4vw 4vw;
+  }
+  .sociallogo{
+    width: 5vw;
+    height: 5vw;
+  }
 
   #walletButton {
     
@@ -611,6 +631,16 @@ header {
     
     display: block;
   }
+
+  .sociallogo{
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .headernavv #logonav {
+    width: 30vw;
+    
+  }
 }
 
 .headernavv a:nth-child(1) {
@@ -620,11 +650,6 @@ header {
 
 #theteam {
   font-size: 4vw;
-}
-
-.headernavv #logonav {
-  width: 10vw;
-  height: auto;
 }
 
 .lcUbOd:hover{

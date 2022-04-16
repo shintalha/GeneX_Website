@@ -8,7 +8,7 @@ import { Logo } from "../components/Logo";
 import { Ptext } from "../components/Ptext";
 import { Roadmap } from "../components/Roadmap";
 import {useProgress } from "@react-three/drei"
-
+import {AR} from "../components/AR"
 export const Preload = () => {
   const { progress, loaded} = useProgress();
   const [done, setDone] = useState(false);
@@ -57,6 +57,7 @@ export const Preload = () => {
       <Logo/>
       <Ptext/>
       <Roadmap/>
+      <AR/>
       <FAQ />
       <Gallery />
       </div>

@@ -51,9 +51,20 @@ The next day, it will be public sale and all people will be able to own GeneX by
             <h4>Step</h4>
             
           </div>
-          
+
         </div>
+        
+
       </div>
+      <div className="flex overflow-x-hidden">
+      <img src="/splitf.gif" alt="video"/>
+      <img src="/splitf.gif" alt="video"/>
+      <img src="/splitf.gif" alt="video"/>
+
+
+      </div>
+
+      
     </div>
   )
 }

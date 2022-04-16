@@ -15,31 +15,44 @@ export const Gallery = () => {
       <Carousel variant="dark" breakPoints={breakPoints}>
         <a>
           <div className="item">
-            <img width="100%" src="https://i.ibb.co/KzZtNT3/2.jpg" alt="photo" />
-            <h1><img src="/iconnew.ico" alt="twitter"  width="40px"/> @leadgene </h1>
+            <img width="100%" src="/redox.jpg" alt="photo" />
+            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter" width="40px" /> redox </h1>
           </div>
         </a>
         <a>
           <div className="item">
-            <img width="100%" src="https://i.ibb.co/J2wHd1Q/4.jpg" alt="photo" />
-            <h1><img src="/iconnew.ico" alt="twitter"  width="40px"/> zebreyn </h1>
+            <img width="100%" src="/mrTreky.jpg" alt="photo" />
+            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> mrTreky </h1>
           </div>
         </a>
         <a>
           <div className="item">
-            <img width="100%" src="https://i.ibb.co/6F8K84P/3.jpg" alt="photo" />
-            <h1><img src="/iconnew.ico" alt="twitter"  width="40px"/> re11mon </h1>
+            <img width="100%" src="/YDalek.jpg" alt="photo" />
+            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> YDalek </h1>
           </div>
         </a>
         
         <a>
           <div className="item">
-            <img width="100%" src="https://i.ibb.co/ccCvzdY/image.jpg" alt="photo" />
-            <h1><img src="/iconnew.ico" alt="twitter"  width="40px"/> mismisking </h1>
+            <img width="100%" src="/SayeiTmr.jpg" alt="photo" />
+            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> SayeiTmr </h1>
           </div>
         </a>
-        
-        
+
+        <a>
+          <div className="item">
+            <img width="100%" src="/xun.jpg" alt="photo" />
+            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> xun </h1>
+          </div>
+        </a>
+
+
+        <a>
+          <div className="item">
+            <img width="100%" src="/zebreyn.jpg" alt="photo" />
+            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> zebreyn </h1>
+          </div>
+        </a>        
       </Carousel>
     </div>
   )
