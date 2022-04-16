@@ -52,7 +52,7 @@ export const AR = () => {
         <a className="block">
           <h1>Everyone wants to interact with their NFTs. We thought about this and worked in the AR environment so that you can experience the traits of GENEX on yourself very soon. We continue to work on other traits. Not only that, we have made it possible to share it with your social media accounts. You will be able to try the traits on yourself by going to the "Effects" section on our Instagram account and share them with your friends very soon. Follow us on Instagram and stay up to date!</h1>
           <a className="flex" href="https://instagram.com/genexprojectnft" target="_blank" rel="noreferrer" >
-          <img className="instalogo" width="50vw" src="/instagramlogo.svg" alt="instalogo" />
+          <img className="instalogo" width="50vw" src="/instalogo.svg" alt="instalogo" />
           <h1><span>@genexprojectnft</span></h1>
           </a>
         </a>
