@@ -272,7 +272,7 @@ html {
 .posab {
   position: absolute;
   left: 16px;
-  top: 90vh;
+  top: 2vh;
   color: white;
   font-weight: 500;
 }
@@ -284,7 +284,7 @@ html {
 .posab2 {
   position: absolute;
   right: 3vw;
-  top: 87vh;
+  top: 2vh;
 }
 
 header {

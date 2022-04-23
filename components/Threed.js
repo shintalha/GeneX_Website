@@ -31,10 +31,10 @@ var animationScripts = [];
 
 animationScripts.push({
   start: 0,
-  end: 5.99,
+  end: 4.49,
   func: () => {
       
-    camera.position.y = lerp(6.90, 7.50, scalePercent(0, 6))
+    camera.position.y = lerp(6.90, 7.50, scalePercent(0, 4.50))
     camera.position.z=-0.10
     camera.position.x=-4.11
     camera.lookAt(-4.11,5,-0.25);
@@ -44,12 +44,12 @@ animationScripts.push({
 
 //add an animation that rotates the cube between 40-60 percent of scroll
 animationScripts.push({
-  start: 6,
-  end: 23.99,
+  start: 4.5,
+  end: 17.99,
   func: () => {
    
-    camera.position.x = lerp(-4.11, -3.9, scalePercent(6, 24))
-    camera.position.y = lerp(7.50, 8, scalePercent(6, 24))
+    camera.position.x = lerp(-4.11, -3.9, scalePercent(4.5, 18))
+    camera.position.y = lerp(7.50, 8, scalePercent(4.5, 18))
     camera.lookAt(-4.11,5,-0.25);
     
     
@@ -57,13 +57,13 @@ animationScripts.push({
 })
 
 animationScripts.push({
-  start: 24,
-  end: 59.99,
+  start: 18,
+  end: 44.99,
   func: () => {
    
-    camera.position.x = lerp(-3.9, 0.45, scalePercent(24, 60))
-    camera.position.z = lerp(-0.14, 1.81, scalePercent(24, 60))
-    camera.position.y = lerp(8, 10.91, scalePercent(24, 60))
+    camera.position.x = lerp(-3.9, 0.45, scalePercent(18, 45))
+    camera.position.z = lerp(-0.14, 1.81, scalePercent(18, 45))
+    camera.position.y = lerp(8, 10.91, scalePercent(18, 45))
     camera.lookAt(-4.11,5,-0.25);
     
     
@@ -71,7 +71,7 @@ animationScripts.push({
 })
 
 animationScripts.push({
-  start: 60,
+  start: 45,
   end: 120,
   func: () => {
    

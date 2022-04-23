@@ -121,7 +121,7 @@ const Header = () => {
 
             </a>
             
-                <a
+                <a hidden="true"
                   onClick={connectWalletPressed} className="buttonrb cursor-pointer px-4 py-2 font-extrabold text-black-300 border  rounded-md"
                   id="walletButton"
 

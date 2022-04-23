@@ -5,6 +5,7 @@ export default function MyApp() {
   const [faq3, setFaq3] = useState(false);
   const [faq4, setFaq4] = useState(false);
   const [faq5, setFaq5] = useState(false);
+  const [faq6, setFaq6] = useState(false);
 
   return (
     <div id="faq" className="relative" >
@@ -143,7 +144,11 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                    {`All people's bodies are different, but from the outside, all people look alike. The most important thing that makes people different from each other is their different characters. At this point, our bodies are insufficient to reflect the differences of our souls. The GeneX Project is the study of reflecting the differences in characters to bodies. And these bodies are blended with the objects in our imaginations with futuristic works, as well as the items we use all the time. The gene that shows these in our bodies is "GeneX". We wanted you to find a GeneX that reminds you of yourself from 4444 different GeneXs that are the result of this blending. In short, with all its differences, it means a large family where we can both win and learn.`}
+                    {`Hello Dear World,
+ 
+ I'm GeneX #0000. I am sending you this letter with light waves, I think this message will reach you in months. I'm in the TransportX spaceship now and we set off from Earth for the journey to Proxima B. I've been in the pitch black space for 2 months and I'm very curious about my new utopian planet.
+ I have important things to tell you. Our purpose to go into space is against inequality, racism, sexual abuse and much more evil in the world, we have decided to leave the world. We are all GeneX, a total of 4444 gathered from all over the world for a just world where there is no inequality.
+ We GeneXs from all over the world started off by arriving on the island of PlatfromX, known only to us, off the Pacific coast, which will not be visible on any satellite. Our island had all the resources needed for a spaceship. We prepared the TransportX in a very short time without getting tired of the 4444 GeneX. We were so close to our goal, all we wanted was a new world ruled by goodness. We chose the planet Proxima B, which is 4.24 light years away, as the planet closest to Earth. We all took our places in the capsule and started our magical adventure.`}
                   </p>
                 </li>
               </ul>
@@ -153,7 +158,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                HOW CAN I BUY GENEX?
+                WHAT IS LAYER ZERO/OMNICHAIN?
                 </h2>
               </div>
               <button
@@ -206,11 +211,7 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                  Minting will take place on this site on the date to be announced. 
-                  If you have a whitelist, you can mint GeneX in the pre-sale, if not, 
-                  you can mint GeneX in the Public Sale. If you miss the Mint, 
-                  you can buy GeneX from OpenSea. We continue to work so that 
-                  you can have a high quality and trouble-free minting experience.
+                  LayerZero is an omnichain interoperability protocol that enables decentralized applications (dApps) to build across multiple blockchains in “a trustless, efficient manner”. In other words, it serves as a transport layer using which smart contracts can communicate across blockchains. You can move your Omnichain NFTs from one network to another. For example, you can transfer a GeneX from Polygon to Ethereum by paying gas fee.
                   </p>
                 </li>
               </ul>
@@ -271,7 +272,7 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                  When our sales dates are certain, they will be announced on our website, social media accounts and Discord server.
+                  The sale will be in May 2022. The certain date will be announced very soon. Follow our social media accounts for any announcements.
                   </p>
                 </li>
               </ul>
@@ -282,7 +283,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                WHAT IS THE MINT PRICE AND THE NUMBER OF MINTS PER WALLET?
+                WHAT IS THE MINT PRICE?
                 </h2>
               </div>
               <button
@@ -333,7 +334,69 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                  Mint price is 0.088ETH for a GeneX. While the number of mints that can be made per wallet is 20, the number of mints per transaction is 10. For example, if you want to mint 20 GeneXs, you would need to do two transaction as 10 Mints + 10 Mints.
+                  There is no mint price. It's free to mint.
+                  </p>
+                </li>
+              </ul>
+            )}
+          </div>
+
+          <div className="bg-white shadow rounded p-4 mt-8" onClick={() => setFaq6(!faq6)}>
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
+                HOW CAN I BUY GENE?
+                </h2>
+              </div>
+              <button
+                onClick={() => setFaq6(!faq6)}
+                data-menu
+                className="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer"
+              >
+                {faq4 ? (
+                  <svg
+                    role="button"
+                    aria-label="close dropdown"
+                    width="10"
+                    height="6"
+                    viewBox="0 0 10 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 5L5 1L9 5"
+                      stroke="#4B5563"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    width="10"
+                    role="button"
+                    aria-label="open dropdown"
+                    height="6"
+                    viewBox="0 0 10 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L9 1"
+                      stroke="#4B5563"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+            {faq6 && (
+              <ul>
+                <li>
+                  <p className="text-base leading-normal text-gray-600 mt-4 ">
+                  The contract addresses deployed in the determined networks will first be shared with the whitelist winners on Discord. Then, the contract addresses will be shared on our twitter address so that it can be publicmint. By entering these contracts, you will be able to mint GeneX directly from the contract. We will post a video tutorial explaining this.
                   </p>
                 </li>
               </ul>

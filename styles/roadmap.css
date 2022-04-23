@@ -2,6 +2,8 @@
     position: relative;
     height: fit-content;
     background-color: rgb(0, 0, 0);
+    background-image: url(../public/space.gif);
+    
     
 }
 .roadmap h1{
@@ -28,7 +30,22 @@
 
     font-size: 1.50vw;
 }
+
+
 .step h4 span{
+    color: blue;
+}
+
+.data {
+    font-family: "A4 SPEED";
+}
+
+.vertical-timeline-element h4 {
+    font-family: "A4 SPEED";
+
+    font-size: 1.50vw;
+}
+.vertical-timeline-element h4 span{
     color: blue;
 }
 .step h5{
