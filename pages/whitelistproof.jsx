@@ -2,7 +2,7 @@ import { useState } from "react"
 import proof from "../lib/proof/proof"
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
-const whitelistproof = () => {
+const Whitelistproof = () => {
     const [address, setAddress] = useState("");
     const [proofMessage, setProofMessage] = useState("Please paste your wallet address to the address field and click GIVE MY PROOF button. Your proof will appear here and you will able to copy it by clicking on it.");
     const [state, setState] = useState(false);
@@ -37,4 +37,4 @@ const whitelistproof = () => {
     )
   }
   
-  export default whitelistproof;
+  export default Whitelistproof;
