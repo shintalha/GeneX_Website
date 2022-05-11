@@ -258,7 +258,7 @@ const Header = () => {
 
               <li>
                 <a
-                  href="https://discord.gg/Qngv7swhhG"
+                  href="http://discord.gg/9jh7A3J9fV"
                   target="_blank"
                   rel="noreferrer"
                 >
