@@ -1,0 +1,138 @@
+.wl h1{
+    color: #ffffff;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Avengeance Heroic Avenger', sans-serif;
+  
+  }
+  
+  .wl h2{
+    color: #ffffff;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    
+    
+  
+  }
+  .buttonproof {
+    background-color: rgb(13, 1, 125);
+    padding: 12px 12px;
+    border-radius: 1;
+    transition: 0.5s;
+    color: rgb(255, 251, 251);
+    border-color: white;
+    border-radius: 10px;
+    
+    
+    
+  }
+  
+  .buttonproof:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 11, 11);
+    border: none;
+    transition: 0.5s;
+  }
+
+  .buttonag {
+    margin-left: 46.5vw;
+    margin-top: 1vh;
+
+  }
+
+  .inputnag {
+    margin-left: 36vw;
+    margin-top: 2vh;
+    width: 31.2vw;
+
+  }
+
+  .proofbox {
+      padding: 10px 10px;
+      overflow-y: auto;
+      overflow-wrap: break-word;
+      text-align: center;
+      margin-left: 32vw;
+      margin-top: 2vh;
+      width: 40vw;
+      height: 20vh;
+  }
+
+
+  @media only screen and (max-width: 720px) {
+    .wl h1{
+        color: #ffffff;
+        font-size: 12vw;
+        text-align: center;
+        font-family: 'Avengeance Heroic Avenger', sans-serif;
+      
+      }
+      
+      .wl h2{
+        color: #ffffff;
+        font-size: 5vw;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        
+        
+      
+      }
+      .buttonproof {
+        background-color: rgb(13, 1, 125);
+        padding: 12px 12px;
+        border-radius: 1;
+        transition: 0.5s;
+        color: rgb(255, 251, 251);
+        border-color: white;
+        border-radius: 10px;
+        
+        
+        
+      }
+      
+      .buttonproof:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(11, 11, 11);
+        border: none;
+        transition: 0.5s;
+      }
+    
+      .buttonag {
+        margin-left: 35vw;
+        margin-top: 1vh;
+    
+      }
+    
+      .inputnag {
+        margin-left: 22vw;
+        margin-top: 2vh;
+        width: 60vw;
+    
+      }
+    
+      .proofbox {
+          padding: 10px 10px;
+          overflow-y: auto;
+          overflow-wrap: break-word;
+          text-align: center;
+          margin-left: 32vw;
+          margin-top: 2vh;
+          width: 40vw;
+          height: 20vh;
+      }
+
+      .copied {
+          margin-left: 43vw;
+
+    }
+
+
+
+
+  }
+
+
+  
