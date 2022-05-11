@@ -147,8 +147,8 @@ export default function MyApp() {
                     {`Hello Dear World,
  
  I'm GeneX #0000. I am sending you this letter with light waves, I think this message will reach you in months. I'm in the TransportX spaceship now and we set off from Earth for the journey to Proxima B. I've been in the pitch black space for 2 months and I'm very curious about my new utopian planet.
- I have important things to tell you. Our purpose to go into space is against inequality, racism, sexual abuse and much more evil in the world, we have decided to leave the world. We are all GeneX, a total of 4444 gathered from all over the world for a just world where there is no inequality.
- We GeneXs from all over the world started off by arriving on the island of PlatfromX, known only to us, off the Pacific coast, which will not be visible on any satellite. Our island had all the resources needed for a spaceship. We prepared the TransportX in a very short time without getting tired of the 4444 GeneX. We were so close to our goal, all we wanted was a new world ruled by goodness. We chose the planet Proxima B, which is 4.24 light years away, as the planet closest to Earth. We all took our places in the capsule and started our magical adventure.`}
+ I have important things to tell you. Our purpose to go into space is against inequality, racism, sexual abuse and much more evil in the world, we have decided to leave the world. We are all GeneX, a total of 5555 gathered from all over the world for a just world where there is no inequality.
+ We GeneXs from all over the world started off by arriving on the island of PlatfromX, known only to us, off the Pacific coast, which will not be visible on any satellite. Our island had all the resources needed for a spaceship. We prepared the TransportX in a very short time without getting tired of the 5555 GeneX. We were so close to our goal, all we wanted was a new world ruled by goodness. We chose the planet Proxima B, which is 4.24 light years away, as the planet closest to Earth. We all took our places in the capsule and started our magical adventure.`}
                   </p>
                 </li>
               </ul>

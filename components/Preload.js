@@ -41,7 +41,7 @@ export const Preload = () => {
     <>
       <Head>
         <title>GeneX Project | Omnichain NFT</title>
-        <meta name="description" content="GeneX Project NFT is the first 3D Omnichain NFT collection created by randomly generating over 200 rare traits. The collection is based on the Layer Zero Technology and includes 4444 unique GeneX. " />
+        <meta name="description" content="GeneX Project NFT is the first 3D Omnichain NFT collection created by randomly generating over 200 rare traits. The collection is based on the Layer Zero Technology and includes 5555 unique GeneX. " />
         <link rel="icon" href="/iconnew.ico" />
       </Head>
       {!done ? (

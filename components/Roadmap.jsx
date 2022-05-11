@@ -40,7 +40,7 @@ export const Roadmap = () => {
  </h4>
     <p>
     GeneX's graphic designs were prepared in 3D high quality. 
-    4444 unique and rare GeneXs were randomly generated. 
+    5555 unique and rare GeneXs were randomly generated. 
     Our GeneXs from all over the world are ready to arrive at our PlatformX island to depart from a world of inequality and injustice to a planet of justice and a positive world.     </p>
   </VerticalTimelineElement>
   
