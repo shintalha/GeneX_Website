@@ -9,8 +9,8 @@ const [Message, setMessage] = useState("Write your ID and click GET RANK button.
 function giveRank() {
     if(0 < ID && ID < 5556)
     {
-    var id = rank(ID);
-    setMessage("RANK: " + id.toString());
+    var arg = rank(ID);
+    setMessage("RANK: " + arg[0]+   "   |   "  + "         SCORE: " + arg[1]);
     }
     else 
     setMessage("Please enter an ID between 1 and 5555!");
