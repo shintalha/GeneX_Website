@@ -3,7 +3,7 @@ import rank from "../lib/rank/rarity"
 import Head from "next/head";
 
 const RANK_component = () => {
-const [ID, setID] = useState(0);
+const [ID, setID] = useState();
 const [Message, setMessage] = useState("Write your ID and click GET RANK button.");
 
 function giveRank() {
