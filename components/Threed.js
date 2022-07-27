@@ -33,12 +33,10 @@ animationScripts.push({
   start: 0,
   end: 4.49,
   func: () => {
-      
     camera.position.y = lerp(6.90, 7.50, scalePercent(0, 4.50))
     camera.position.z=-0.10
     camera.position.x=-4.11
     camera.lookAt(-4.11,5,-0.25);
-    
   },
 })
 
@@ -47,42 +45,33 @@ animationScripts.push({
   start: 4.5,
   end: 17.99,
   func: () => {
-   
     camera.position.x = lerp(-4.11, -3.9, scalePercent(4.5, 18))
     camera.position.y = lerp(7.50, 8, scalePercent(4.5, 18))
     camera.lookAt(-4.11,5,-0.25);
-    
-    
-  },
+
+  }
 })
 
 animationScripts.push({
   start: 18,
   end: 44.99,
   func: () => {
-   
     camera.position.x = lerp(-3.9, 0.45, scalePercent(18, 45))
     camera.position.z = lerp(-0.14, 1.81, scalePercent(18, 45))
     camera.position.y = lerp(8, 10.91, scalePercent(18, 45))
     camera.lookAt(-4.11,5,-0.25);
-    
-    
-  },
+  }
 })
 
 animationScripts.push({
   start: 45,
   end: 120,
   func: () => {
-   
     camera.position.x = 0.45
     camera.position.z = 1.81
     camera.position.y = 10.91
     camera.lookAt(-4.11,5,-0.25);
-
-    
-    
-  },
+  }
 }) 
 
 function playScrollAnimations() {
@@ -109,16 +98,11 @@ function playScrollAnimations() {
       </perspectiveCamera>
     );
   };
-
   const Loader = () => {
-
   }
 
 const Threed = () => {
-  
-  
 return(
-    
     <Canvas style={{right:0 ,left:0 , top:0 , position:"fixed"}}>
         <Effects>
             <glitchPass attachArray="passes"/>
@@ -126,17 +110,10 @@ return(
         <CCamera/>
         <pointLight position={[-3.980, 8.68, -0.47]} color="white" intensity={1.50} distance={0} decay={1} />
         <Suspense fallback={null}>
-        
-        <Model />
-        
-        <Environment preset="night" background />
+          <Model />
+          <Environment preset="night" background />
         </Suspense>
-        
     </Canvas>
-    
-    
 );
-
 }
-
 export default Threed;

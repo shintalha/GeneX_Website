@@ -31,13 +31,13 @@ export default function Model({ ...props }) {
       vid.muted = true;
       if(getDeviceType()=='desktop')
       vid.play();
-      
       return vid;
     });
     return [video];
   }
 
   var texture = new THREE.TextureLoader().load("/image14.jpg");
+  
   return (
     <group ref={group} {...props} dispose={null}>
       <group position={[-4.10717, 6.240774, 0.174763]}>

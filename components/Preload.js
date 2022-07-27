@@ -16,26 +16,12 @@ export const Preload = () => {
   const myint = setInterval(
     (() => {
       if(progress==100){
-      
-    
-    
         clearInterval(myint);
         setTimeout(() => {
-          
-          
-          
           setDone(1);
-          
-        
         }, 1000); 
-       
-        
-
-      
      }}), 
     1000);
-    
-    
 
   return (
     <>
@@ -45,21 +31,19 @@ export const Preload = () => {
         <link rel="icon" href="/iconnew.ico" />
       </Head>
       {!done ? (
-        
         <div className="posab4">
           <img src="/loading.gif" alt="loading.." className="relative posab5"/>
-          
-          </div>
+        </div>
       ) : (
       <div>
-      <Header/>
-      <Sticky/>
-      <Logo/>
-      <Ptext/>
-      <Roadmap/>
-      <AR/>
-      <FAQ />
-      <Gallery />
+        <Header/>
+        <Sticky/>
+        <Logo/>
+        <Ptext/>
+        <Roadmap/>
+        <AR/>
+        <FAQ />
+        <Gallery />
       </div>
       )}
     </>

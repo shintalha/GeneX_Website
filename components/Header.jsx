@@ -1,105 +1,6 @@
 import Head from "next/head";
 
-import { useState, useEffect } from "react";
-import { useStatus } from "../context/statusContext";
-import { connectWallet, getCurrentWalletConnected } from "../utils/interact";
-
 const Header = () => {
-  const { setStatus } = useStatus();
-  const [walletAddress, setWalletAddress] = useState("");
-  const [isMintingOpen, setMintingState] = useState(false); // Minting ekranı değiştiren element.
-  const [isMintingScOpen, setMintingScState] = useState("");
-  const [mintingCount, setMintingCount] = useState("");
-  const [isItDesktop, setDesktop] = useState(0);
-  const [wscreen, setWscreen] = useState(false);
-
-
-  const connectWalletPressed = async () => {
-    const walletResponse = await connectWallet();
-    setWalletAddress(walletResponse.address);
-    setStatus(walletResponse.status);
-    
-    if(!window.ethereum){
-      setWscreen(true);
-    }
-
-
-  };
-  const mintingButtonPressed = async () => {
-    setMintingScState(!isMintingScOpen);
-
-  };
-  const closeMinting = async () => {
-    setMintingScState(0);
-
-  }
-  const closeMetamask = async () => {
-    setWscreen(false);
-
-  }
-  const countPlus = async (e) => {
-    setMintingCount(mintingCount + 1);
-
-  }
-  const countMinus = async (e) => {
-    if(mintingCount > 0) {
-      setMintingCount(mintingCount - 1);
-    }
-
-  }
-  
-  const getDeviceType = () => {
-    const ua = navigator.userAgent;
-    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-      return "tablet";
-    }
-    if (
-      /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
-        ua
-      )
-    ) {
-      return "mobile";
-    }
-    return "desktop";
-  };
-
-  useEffect(() => {
-    const prepare = async () => {
-      const walletResponse = await getCurrentWalletConnected();
-      setWalletAddress(walletResponse.address);
-      setStatus(walletResponse.status);
-      
-      setMintingScState(0);
-      setMintingCount(0);
-      setWscreen(false);
-      addWalletListener();
-      if(getDeviceType() == "desktop") {
-        setDesktop(1);
-      } else {
-        setDesktop(0);
-
-      }
-    };
-
-    prepare();
-  }, []);
-
-  const addWalletListener = () => {
-    if (window.ethereum) {
-      window.ethereum.on("accountsChanged", async (accounts) => {
-        if (accounts.length > 0) {
-          setWalletAddress(accounts[0]);
-          
-        } else {
-          setWalletAddress("");
-          
-        }
-      });
-    }
-    
-    
-  };
-
   return (
     <>
       <Head>
@@ -107,135 +8,22 @@ const Header = () => {
         <meta name="description" content="GeneX Project NFT is the first 3D Omnichain NFT collection created by randomly generating over 200 rare traits. The collection is based on the Layer Zero Technology and includes 5555 unique GeneX." />
         <link rel="icon" href="/iconnew.ico" />
       </Head>
-
-      <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white 
-       bg-primary backdrop-filter bg-opacity-0 overflow-x-hidden">
+      <header 
+        className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white bg-primary backdrop-filter bg-opacity-0 overflow-x-hidden"
+      >
         <div className=" container">
-
-
           {/* Navigation */}
-
           <nav aria-label="Main Menu" className="headernavv">
             <a>
               <img src="/image2.png" alt="logo" id="logonav"/>
-
             </a>
-            
-                <a hidden="true"
-                  onClick={connectWalletPressed} className="buttonrb cursor-pointer px-4 py-2 font-extrabold text-black-300 border  rounded-md"
-                  id="walletButton"
-
-                >
-                  {walletAddress.length > 0 ? (
-                    "Connected: " +
-                    String(walletAddress).substring(0, 6) +
-                    "..." +
-                    String(walletAddress).substring(38)
-                  ) : (
-                    <span>Connect Wallet</span>
-                  )}
-                </a>
-                {
-                walletAddress.length > 0 ? (
-                  <a  onClick={mintingButtonPressed} className="mintingButton buttonrb cursor-pointer px-4 py-2 font-extrabold text-black-300 border rounded-md" id="mintingButton">
-
-                    <span>Minting</span>
-                  </a>
-                ) : (null)
-              }
-              
           </nav>
-
-          {/* Opensea Twitter Discord Links */}
+          {/* Opensea Twitter Discord Links */}      
+        </div>
         
-          
-                      
-        </div>
-        <div>
-          {wscreen ? (
-            <div className="posab3 backdrop-filter backdrop-blur-lg" >
-              <div onClick={closeMetamask} className="exit">✕</div>
-              <span>
-          <h2>
-            <a target="_blank"
-             rel="noreferrer"
-             href="https://metamask.io/download.html" >🦊</a>
-            </h2>
-            <p>
-            <a
-             target="_blank"
-             rel="noreferrer"
-             href="https://metamask.io/download.html" 
-            >
-              You must install MetaMask, a virtual Ethereum wallet, in your
-              browser. Please click Metamask logo to go to official Metamask download website. If you are on mobile, please go to Metamask App and come to the website from Browser on it.
-            </a>
-          </p>
-        </span>
-              
-          </div>
-          ): (null)}
-        </div>
-        {isMintingScOpen ? ( isMintingOpen ? (
-          
-            <div className="posab3 backdrop-filter backdrop-blur-lg">
-            <div className="d-flex">
-              <h2>THE GENEX PROJECT</h2>
-              <div onClick={closeMinting} className="exit">✕</div>
-
-            </div>
-            <p>Your Wallet Adress : {String(walletAddress).substring(0, 6) +
-                    "..." +
-                    String(walletAddress).substring(38)}<br />
-              The Number Of GeneX you can mint : 5 <br />
-              You area about to now You area about to now You area about to nowYou area about to nowYou area about to nowYou area about to now
-            </p>
-            <br />
-            <div className="mtps">
-              <div className="row">
-                <div className="col1 ">
-                  <div className="d-flex buttonsadd">
-                  <button onClick={e => countMinus(e)}>-</button><p>{mintingCount}</p> <button onClick={e => countPlus(e)}>+</button>
-                  </div>
-
-                </div>
-                <div className="rw">
-                  <button className="mintButton">Mint</button>
-                </div>
-                <div className="rw sccs">
-                  <p>Your Transaction succesfully completed.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-           ) : (<div className="posab3 backdrop-filter backdrop-blur-lg">
-          <div className="d-flex">
-            <h2>THE GENEⓧ PROJECT </h2>
-            <div onClick={closeMinting} className="exit">✕</div>
-  
-          </div>
-          <p>Your Wallet Adress : {String(walletAddress).substring(0, 6) +
-                  "..." +
-                  String(walletAddress).substring(38)}<br />
-            
-            Minting Date: To be announced 🗓.<br />
-            Please follow announcements 📣 from official GeneX Twitter and Discord servers to get know minting date 👨🏻‍💻. 
-          </p>
-          
-         
-        </div>)
-        ) : (null)
-        }
-        <div className="posab">
-          <p></p>
-
-        </div>
         <div className="posab2">
           <nav aria-label="Contact Menu">
             <ul className="flex items-center space-x-3">
-           
-
-
               <li>
                 <a
                   href="https://twitter.com/genexprojectnft"
@@ -243,8 +31,6 @@ const Header = () => {
                   rel="noreferrer"
                 >
                   <svg className="sociallogo"
-                    
-                    
                     stroke="currentColor"
                     fill="currentColor"
                     strokeWidth="0"
@@ -255,7 +41,6 @@ const Header = () => {
                   </svg>
                 </a>
               </li>
-
               <li>
                 <a
                   href="http://discord.gg/9jh7A3J9fV"
@@ -263,7 +48,6 @@ const Header = () => {
                   rel="noreferrer"
                 >
                   <svg className="sociallogo"
-                    
                     stroke="currentColor"
                     fill="currentColor"
                     strokeWidth="0"
@@ -278,7 +62,6 @@ const Header = () => {
           </nav>
         </div>
       </header>
-
     </>
   );
 };

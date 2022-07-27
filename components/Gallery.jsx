@@ -1,4 +1,3 @@
-import { Center } from "@react-three/drei";
 import React from "react"
 import Carousel from "react-elastic-carousel";
 
@@ -22,7 +21,6 @@ export const Gallery = () => {
             <h1 style={{height: "40px"}}>redox</h1>
             <a href="https://twitter.com/shintalha" target="_blank" rel="noreferrer"><img style={{marginTop: "10px", marginRight: "2px"}} src="/twitter.png" alt="twitter" width="40px" /> </a>
             </div>
-            
           </div>
         </a>
         <a>
@@ -45,7 +43,6 @@ export const Gallery = () => {
             </div>
           </div>
         </a>
-        
         <a>
           <div className="item">
             <img width="100%" src="/SayeiTmr.jpg" alt="photo" />
@@ -56,15 +53,12 @@ export const Gallery = () => {
             </div>
           </div>
         </a>
-
         <a>
           <div className="item">
             <img width="100%" src="/xun.jpg" alt="photo" />
             <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> xun </h1>
           </div>
         </a>
-
-
         <a>
           <div className="item">
             <img width="100%" src="/zebreyn.jpg" alt="photo" />
