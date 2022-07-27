@@ -76,8 +76,9 @@ export const Roadmap = () => {
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
             dateClassName="data"
-            date="MAY 2022"
-            conStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+            date="DONE"
+            iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+            icon={ <IoCheckmarkSharp />}
           >
             <h4>Step<span>4</span> -Proxima B: Our New Planet</h4>
             <p>
