@@ -55,12 +55,6 @@ export const Gallery = () => {
         </a>
         <a>
           <div className="item">
-            <img width="100%" src="/xun.jpg" alt="photo" />
-            <h1 style={{height: "40px"}}><img src="/iconnew.ico" alt="twitter"  width="40px"/> xun </h1>
-          </div>
-        </a>
-        <a>
-          <div className="item">
             <img width="100%" src="/zebreyn.jpg" alt="photo" />
             <div className="flex items-center space-x-14" >
             <a href="https://www.linkedin.com/in/serkan-demir-6428041b4/" target="_blank" rel="noreferrer"><img style={{marginTop: "10px"}} src="/linkedn.png" alt="twitter" width="40px" /> </a>
