@@ -82,7 +82,7 @@ export const Roadmap = () => {
           >
             <h4>Step<span>4</span> -Proxima B: Our New Planet</h4>
             <p>
-              eneX NFTs obtained by making free mint have taken their place in all marketplaces. The rarity rating starts in the market areas and daily, weekly and monthly special events are held with NFT holders. The GeneXs have arrived on our new planet Proxima B, great adventures and good days await the GeneXs. 
+              GeneX NFTs obtained by making free mint have taken their place in all marketplaces. The rarity rating starts in the market areas and daily, weekly and monthly special events are held with NFT holders. The GeneXs have arrived on our new planet Proxima B, great adventures and good days await the GeneXs. 
             </p>
           </VerticalTimelineElement>
     
